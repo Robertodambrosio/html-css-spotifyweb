@@ -229,7 +229,7 @@ hr.hrdownload {
     opacity: 0.5;
 }
 
-.container:hover .after {
+.overlay:hover .after {
     opacity: 1;
 }
 
