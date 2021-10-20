@@ -138,6 +138,7 @@ hr.hrdownload {
 .nav-main {
     width: 100%;
     margin: 0 auto;
+    max-width: 600px;
 }
 
 .nav-centrale {
@@ -169,7 +170,7 @@ hr.hrdownload {
 .container-canzoni {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
 .canzone {
@@ -191,8 +192,7 @@ hr.hrdownload {
 }
 
 .canzone img {
-    width: 150px;
-    height: 150px;
+    width: 90%;
 }
 
 /* ===================footer */
@@ -264,6 +264,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
+    max-width: 200px;
 }
 
 .col-cc .coltop i {
@@ -320,7 +321,7 @@ footer {
 }
 
 
-/* =================media query */
+/* ========================media query */
 
 @media (min-width: 576px) {
     .aside {
@@ -418,4 +419,16 @@ footer {
         margin-left: 10px;
     }
 
+}
+
+@media (min-width: 768px) {
+    .canzone {
+        width: calc(100% / 4);
+    }
+}
+
+@media (min-width: 992px) {
+    .canzone {
+        width: calc(100% / 6);
+    }
 }
