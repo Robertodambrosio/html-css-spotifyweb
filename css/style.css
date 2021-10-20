@@ -85,9 +85,11 @@ hr.hrdownload {
 }
 
 .profileicon {
+    height: 20px;
     background-color: grey;
     border-radius: 50%;
-    margin-top: 5px;
+    margin-top: 10px;
+    overflow: hidden;
 }
 
 /* ===parte destra */
@@ -163,7 +165,6 @@ hr.hrdownload {
 
 .playlist-title {
     font-size: 20px;
-    padding: 20px 0;
     color: white;
 }
 
@@ -171,6 +172,7 @@ hr.hrdownload {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+    padding-top: 20px;
 }
 
 .canzone {
@@ -178,6 +180,15 @@ hr.hrdownload {
     padding-bottom: 20px;
     text-align: center;
     font-size: 12px;
+}
+
+.rounded {
+    border-radius: 50%;
+}
+
+.copertine p {
+    padding-top: 5px;
+    font-size: 10px;
 }
 
 .canzone-title {
