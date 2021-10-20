@@ -26,7 +26,7 @@ main {
 /* ====parte sinistra */
 .aside {
     height: 100%;
-    width: 35px;
+    width: 40px;
     float: left;
     background-color: black;
     display: flex;
@@ -96,14 +96,14 @@ hr.hrdownload {
 
 .main-content {
     background: linear-gradient(#1e1e1e, #141414);
-    width: calc(100% - 35px);
+    width: calc(100% - 40px);
     height: 100%;
     overflow-y: auto;
 }
 
 .header-dx {
     height: 70px;
-    width: calc(100% - 35px);
+    width: calc(100% - 40px);
     background-color: #101010;
     position: fixed;
     right: 0;
@@ -202,8 +202,35 @@ hr.hrdownload {
     font-size: 10px
 }
 
+.overlay {
+    position: relative;
+    width: 100%;
+}
+
 .canzone img {
-    width: 90%;
+    width: 90%
+}
+
+.after {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.after i {
+    font-size: 50px;
+    color: white
+}
+
+.overlay:hover img {
+    opacity: 0.5;
+}
+
+.container:hover .after {
+    opacity: 1;
 }
 
 /* ===================footer */
