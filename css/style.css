@@ -28,7 +28,7 @@ main {
     height: 100%;
     width: 40px;
     float: left;
-    background-color: black;
+    background-color: #0e0e0e;
     display: flex;
     flex-direction: column;
     min-height: 70px;
@@ -265,6 +265,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
+    border-top: 1px solid rgb(80, 80, 80);
 }
 
 .col-sx,
@@ -430,7 +431,7 @@ footer {
 
     .icon-list {
         margin: 20px 0;
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .icon-list li {
