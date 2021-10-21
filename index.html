@@ -18,17 +18,20 @@
     </header>
     <!-- =============================main -->
     <main>
-        <!-- barra laterale -->
+        <!-- barra laterale colonna sx-->
         <div class="aside">
+            <!-- logo -->
             <div class="logo">
                 <img src="img/logo-small.svg" alt="logo Spotify" class="logosm">
                 <img src="img/logo.svg" alt="logo full Spotify" class="logofull">
             </div>
+            <!-- lista icone principali aside-->
             <ul class="icon-list">
                 <li><img src="img/home.svg" alt="home icona"><span class="etichettaicon">Home</span></li>
                 <li><img src="img/search.svg" alt="search icona"><span class="etichettaicon">Cerca</span></li>
                 <li><img src="img/libreria.svg" alt="libreria icona"><span class="etichettaicon">La tua libreria</span></li>
             </ul>
+            <!-- playlist aside-->
             <div class="playlistmenu">
                 <h5>Playlist</h5>
                 <div><span class="addbox">+</span><span class="creapl">Crea Playlist</span></div>
@@ -42,6 +45,7 @@
                     <li><a href="#">Nome Playlist</a></li>
                 </ul>
             </div>
+            <!-- icone profilo aside -->
             <div class="profile">
                 <div><img src="img/download.svg" alt="download icon" class="downloadicon"><span
                         class="etichettaicon">Installa app</span></div>
@@ -50,16 +54,20 @@
                         class="etichettaicon name">John Doe</span></div>
             </div>
         </div>
+        <!-- colonna dx main -->
         <div class="main-content">
+            <!-- header fixed colonna dx-->
             <div class="header-dx">
                 <div class="btn-upgrade">
                     <a class="btn">Effettua l'Upgrade</a>
                 </div>
             </div>
+            <!--main canzoni-->
             <div class="container">
+                <!-- nav main-->
                 <div class="nav-main">
                     <ul class="nav-centrale">
-                        <li><a href="#">in evidenza</a></li>
+                        <li><a href="#">in evidenza</a><div class="lineaverde"></div></li>
                         <li><a href="#">podcast</a></li>
                         <li><a href="#">classifiche</a></li>
                         <li><a href="#">generi e mood</a></li>
@@ -67,6 +75,7 @@
                         <li><a href="#">scopri</a></li>
                     </ul>
                 </div>
+                <!-- copertine canzoni main row1-->
                 <div class="copertine">
                     <div class="rip-recenti">
                         <h2 class="playlist-title">Recently played</h2>
@@ -80,46 +89,68 @@
                                 <span class="subtitle">subtitle</span>
                             </div>
                             <div class="canzone">
+                                <div class="overlay">
                                 <img src="img/stranger.jpeg" alt="playlist metal">
+                                <div class="after"><i class="far fa-play-circle"></i></div>
+                                </div>
                                 <h4 class="canzone-title">Stranger things, vol 1 (a Netflix original series soundtrack)
                                 </h4>
                                 <span class="subtitle">subtitle</span>
                             </div>
                             <div class="canzone">
+                                <div class="overlay">
                                 <img src="img/aquietplace.jpeg" alt="playlist metal">
+                                <div class="after"><i class="far fa-play-circle"></i></div>
+                                </div>
                                 <h4 class="canzone-title">A quiet place</h4>
                                 <span class="subtitle">subtitle</span>
                             </div>
                             <div class="canzone">
+                                <div class="overlay">
                                 <img src="img/split.jpeg" alt="playlist metal">
+                                <div class="after"><i class="far fa-play-circle"></i></div>
+                                </div>
                                 <h4 class="canzone-title">Split</h4>
                                 <span class="subtitle">subtitle</span>
                             </div>
                             <div class="canzone">
+                                <div class="overlay">
                                 <img src="img/cure.jpeg" alt="playlist metal">
+                                <div class="after"><i class="far fa-play-circle"></i></div>
+                                </div>
                                 <h4 class="canzone-title">A little cure</h4>
                                 <span class="subtitle">subtitle</span>
                             </div>
                             <div class="canzone">
+                                <div class="overlay">
                                 <img src="img/sinister.jpeg" alt="playlist metal">
+                                <div class="after"><i class="far fa-play-circle"></i></div>
+                                </div>
                                 <h4 class="canzone-title">Sinister</h4>
                                 <span class="subtitle">subtitle</span>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- copertine canzoni main row2-->
                 <div class="copertine">
                     <div class="rip-recenti">
                         <h2 class="playlist-title">Create per John Doe</h2>
                         <p>Più ascolti, più accurati saranno i suggerimenti</p>
                         <div class="container-canzoni">
                             <div class="canzone">
+                                <div class="overlay">
                                 <img src="img/radar.jpeg" alt="playlist radar">
+                                <div class="after"><i class="far fa-play-circle"></i></div>
+                                </div>
                                 <h4 class="canzone-title">Il tuo release radar</h4>
                                 <span class="subtitle">subtitle</span>
                             </div>
                             <div class="canzone">
+                                <div class="overlay">
                                 <img src="img/mixdaily.jpeg" alt="playlist daily mix">
+                                <div class="after"><i class="far fa-play-circle"></i></div>
+                                </div>
                                 <h4 class="canzone-title">Il tuo Daily Mix 1
                                 </h4>
                                 <span class="subtitle">subtitle</span>
@@ -127,18 +158,25 @@
                         </div>
                     </div>
                 </div>
+                <!-- copertine canzoni main row3-->
                 <div class="copertine">
                     <div class="rip-recenti">
                         <h2 class="playlist-title">Artisti più popolari</h2>
                         <p>Più ascolti, più accurati saranno i suggerimenti</p>
                         <div class="container-canzoni">
                             <div class="canzone">
+                                <div class="overlay">
                                 <img src="img/einaudi.jpeg" alt="playlist einaudi" class="rounded">
+                                <div class="after"><i class="far fa-play-circle"></i></div>
+                                </div>
                                 <h4 class="canzone-title">Ludovico Einaudi</h4>
                                 <span class="subtitle">subtitle</span>
                             </div>
                             <div class="canzone">
+                                <div class="overlay">
                                 <img src="img/youg.jpeg" alt="playlist youg" class="rounded">
+                                <div class="after"><i class="far fa-play-circle"></i></div>
+                                </div>
                                 <h4 class="canzone-title">Lana Del Rey</h4>
                                 <span class="subtitle">subtitle</span>
                             </div>
@@ -149,7 +187,9 @@
         </div>
     </main>
     <!-- =============================footer -->
+    <!-- player footer -->
     <footer>
+        <!-- colonna sx footer -->
         <div class="col-sx">
             <div class="canzone-play">
                 <img src="img/sinister.jpeg">
@@ -158,12 +198,14 @@
                     <p>Brano</p>
                     <p>Nome</p>
                 </div>
-            </div>
+            
             <div class="iconelike">
                 <i class="far fa-heart"></i>
                 <i class="far fa-folder"></i>
             </div>
+            </div>
         </div>
+        <!-- colonna cc player principale-->
         <div class="col-cc">
             <div class="coltop">
                 <i class="fas fa-random"></i>
@@ -174,10 +216,11 @@
             </div>
             <div class="colbottom">
                 <p>0:24</p>
-                <div class="barra"></div>
+                <div class="barra"><div class="barra2"></div></div>
                 <p>4:12</p>
             </div>
         </div>
+        <!-- colonna dx volume -->
         <div class="col-dx">
             <i class="fas fa-list-ul"></i>
             <i class="fas fa-desktop"></i>
